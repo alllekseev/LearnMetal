@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>top-level-items</key>
+	<array>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>39</string>
+					<key>EndingLineNumber</key>
+					<string>292</string>
+					<key>StartingColumnNumber</key>
+					<string>39</string>
+					<key>StartingLineNumber</key>
+					<string>292</string>
+					<key>Timestamp</key>
+					<string>803062896.786731</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>LearnMetal/THEORY.md</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string></string>
+				<key>leading</key>
+				<string>
+```metal
+float viz = sdf / (radius * 2.0) + 0.5;</string>
+				<key>trailing</key>
+				<string>
+return half4(viz, viz, viz, 1.0);
+```
+</string>
+			</dict>
+			<key>title</key>
+			<string>отладка геометрии по карте с sdf</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>36</string>
+					<key>EndingLineNumber</key>
+					<string>356</string>
+					<key>StartingColumnNumber</key>
+					<string>36</string>
+					<key>StartingLineNumber</key>
+					<string>356</string>
+					<key>Timestamp</key>
+					<string>803127755.532922</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>LearnMetal/THEORY.md</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string></string>
+				<key>leading</key>
+				<string>|---|---|
+| Резкий край | `step(0.0, sdf)` |
+| Плавный край | `smoothstep(-1.0, 1</string>
+				<key>trailing</key>
+				<string>.0, sdf)` | как работает smoothstep?
+| Обводка | `smoothstep(-1.0, 1.0, abs(sdf) - thickness)` |
+| Свечение | `1.0 / (1.0 + sdf * sdf * 0.01)` |
+</string>
+			</dict>
+			<key>title</key>
+			<string>как работает smoothstep?</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+	</array>
+</dict>
+</plist>

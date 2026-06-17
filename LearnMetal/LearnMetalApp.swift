@@ -12,6 +12,7 @@ struct LearnMetalApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .background(.gray.opacity(0.2))
         }
     }
 }
